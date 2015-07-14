@@ -85,6 +85,12 @@ class TicketsController extends BaseController {
 			$passengerName = null;
 		}
 
+		if (($_POST['rloc'] != null)) {
+			$rloc = strtoupper(trim($_POST['rloc']));
+		}else{
+			$rloc = "";
+		}
+
 		$parsePassengerName = explode(" ", $passengerName);
 
 		$first = (array_key_exists(0, $parsePassengerName) ? $parsePassengerName[0] : "");
@@ -93,11 +99,14 @@ class TicketsController extends BaseController {
 
 		if(strlen($ticketNumber) == 10 ){
 			$model = Document::where('ticketNumber', '=', $ticketNumber)->get();	
+		}elseif(strlen($rloc) == 6 ){
+			$model = Document::where('rloc', '=', $rloc)->get();
 		}else{
 			$model = Document::where('paxName', 'LIKE', '%'.$first.'%')
 							 ->where('paxName','LIKE','%'.$mid.'%')
 							 ->where('paxName','LIKE','%'.$last.'%')
 							 ->where('ticketNumber', 'LIKE', '%'.$ticketNumber.'%')
+							 ->where('rloc', 'LIKE', '%'.$rloc.'%')
 							 ->get();	
 		}
 		//$model = Document::where('tickeNumebr', '=', $ticketNumber)->first();

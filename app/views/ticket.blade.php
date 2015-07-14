@@ -56,8 +56,9 @@
       event.preventDefault();
       var noError = true; 
 
-      var ticketNumber = $.trim($("input[name='ticketNumber']").val());
-      var passengerName = $.trim($("input[name='passengerName']").val());
+      var ticketNumber   = $.trim($("input[name='ticketNumber']").val());
+      var passengerName  = $.trim($("input[name='passengerName']").val());
+      var rloc           = $.trim($("input[name='rloc']").val());
 
       if($.isNumeric(ticketNumber) || ticketNumber==""){
         noError = true;
@@ -73,7 +74,9 @@
           method: "post",
           url: "/search",
           dataType: "json",
-          data: {ticketNumber: ticketNumber, passengerName: passengerName},
+          data: {ticketNumber:ticketNumber,
+                 passengerName:passengerName,
+                 rloc:rloc},
           success: function(data){
             if(data.length>1){
               $.each(data,function(index,item){
