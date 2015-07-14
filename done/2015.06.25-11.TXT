@@ -1,0 +1,22 @@
+                   I-J TRAVEL INC                             IN0015271
+ETKT     **AGENT COUPON**              61501650       **ITINERARY**
+PHILIPPINE AIRLINES          1 OF 1   SJKVFF/AA    PR 119X YVRMNL 20OCT
+CHAN/FAY                        TCCAN/15/15H          XLRTVPHW
+                                         25JUN15  XPR 300X MNLHKG 21OCT
+                                                      XLRTVPHW
+PNLTIES APPLY/PRTL NONREF/REG ECO /NONEND/        OPR 301X HKGMNL 30OCT
+YVR PR X/MNL PR HKG Q YVRHKG11.96 341.11PR X/MNL      XLRTVPH
+Q5.80PR YVR Q HKGYVR11.96 341.11NUC711.94END ROE1 XPR 118X MNLYVR 30OCT
+.25334                                                XLRTVPH
+   
+   
+CAD     892.00
+       25.91CA AGT/CHQ
+        1.00XG FCI00
+      469.23XT
+CAD    1388.14
+         079 9238905491 5 PRI  FFFF
+0011/                         CAD      892.00         0 0500     496.14     
+   
+TAX BREAKDOWN
+TAX       20.00SQ TAX      400.00YQ TAX       30.14LI TAX       19.09HK                                                                           

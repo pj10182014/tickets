@@ -1,0 +1,21 @@
+body{background-color: #F1F1F1; margin: 0; padding: 0;}
+button:hover{cursor: pointer;}
+input[type=submit]:hover {cursor: pointer;}
+
+
+.container{width: 940px; overflow-x:hidden; overflow-y:auto;min-height: 1000px; margin-right: auto; margin-left: auto;background-color: #fff; padding: 10px;}
+.title{width:100%; height:100px; margin-right: auto; margin-left: auto; line-height: 100px; background-color: #e3e3e3;box-shadow: 2px 2px 2px #c1c1c1; border-radius: 7px;}
+	.title h1{text-align: center; margin: 0;}
+.update-info{width:100%; height:50px; margin-right: auto; margin-left: auto; line-height: 50px; background-color: #e3e3e3;box-shadow: 2px 2px 2px #c1c1c1; border-radius: 7px;margin-top: 10px;}
+	.update-info h3{text-align: center; margin: 0;}
+.sub-container{margin-top: 5px; padding: 5px; min-height: auto; margin-bottom: 5px;}
+	.sub-container .ticket-field{width: 200px; float: right;}
+	.sub-container .name-field{width: 200px; float: right;}
+	.sub-container .rloc-field{width: 200px; float: right;}
+.form-field{width: 500px; float:left; margin-bottom: 5px;}
+.button-field{min-width:500px; float:left; margin-bottom: 5px;}
+#text-field{width: 870px; min-height: 700px; margin-top: 15px; padding: 10px 0 0 64px;background-color: #e3e3e3;box-shadow: 2px 2px 2px #c1c1c1; border-radius: 7px;float: left;}
+	#text-field .text-block{background: none repeat scroll 0 0 white; margin: 0 70px 10px 0;padding: 0 0 0 120px;}
+	#text-field .text-block-single{background: none repeat scroll 0 0 white; margin: 0 70px 10px 0;padding: 1px 0 0 120px; box-shadow: 2px 2px 2px #c1c1c1; border-radius: 7px;}
+	#text-field .block-hearder{margin: 0; width: 799px;}
+	#text-field .block-hearder span{margin: 0 0 0 30px;}

@@ -1,0 +1,133 @@
+JOLLYTIME TRAVEL                 EDMONTON  01JUN15 AUTH:C8380CR2XBEJ9X  
+SIU/REGIENT                                         YEG   YVR 25DEC
+EXCHANGE AUTHORIZATION                    60716375    MB10
+WESTJET                                 5880/  FCI0 YVR O YEG 31DEC
+                        ***EXCHANGED TICKETS***       GB14
+                        1 838 89170981436 23
+
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY
+FPCAXXXXXXXXXXXX0858EXP1015C06224B FCYEA WS YVR 184
+.00WS YEA 141.00CAD325.00END  XT 50.00SQ 36.00YQ
+
+
+
+CAD  325.00
+    14.25CA
+    21.26XG                AUTH:C8380CR2XBEJ9X
+    86.00XT
+CAD  446.51
+.
+JOLLYTIME TRAVEL                 EDMONTON  03JUN15 AUTH: 695N3Y5LSVR3U  
+VA/BUNTHOEUN                                        YEG   YVR 15JUN
+EXCHANGE AUTHORIZATION                    60716375    HHX6MC
+EVA AIRWAYS CORPORATION         C90-91  5880/  FCI1 YVR O TPE 16JUN
+                        ***EXCHANGED TICKETS***       HHX6MC
+                        1 695 89168872900 24 31 45  TPE O PNH 17JUN
+                        1 695 89168872911 25          HHX6MC
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            PNH O TPE 17JUL
+FPAXXXXXXXXXXXX1005EXP0716C130952 FCM/IT END  XT 30   HHW6MC
+.00SQ 30.40KX 222.00YQ                              TPE O YVR 17JUL
+                                                      HHW6MC
+                                                    YVR O YEG 17JUL
+                                                      HHW6MC
+IT
+    25.91CA
+     1.50XG                AUTH: 695N3Y5LSVR3U
+   282.40XT
+
+.
+JOLLYTIME TRAVEL                 EDMONTON  03JUN15 AUTH: 695N3Y5LSVR3W  
+VABOU/PAMELA                                        YEG   YVR 15JUN
+EXCHANGE AUTHORIZATION                    60716375    HHX6MC
+EVA AIRWAYS CORPORATION         C92-93  5880/  FCI1 YVR O TPE 16JUN
+                        ***EXCHANGED TICKETS***       HHX6MC
+                        1 695 89168872922 26 33 40  TPE O PNH 17JUN
+                        1 695 89168872933 20          HHX6MC
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            PNH O TPE 17JUL
+FPAXXXXXXXXXXXX1005EXP0716C130952 FCM/IT END  XT 30   HHW6MC
+.00SQ 30.40KX 222.00YQ                              TPE O YVR 17JUL
+                                                      HHW6MC
+                                                    YVR O YEG 17JUL
+                                                      HHW6MC
+IT
+    25.91CA
+     1.50XG                AUTH: 695N3Y5LSVR3W
+   282.40XT
+
+.
+JOLLYTIME TRAVEL                 EDMONTON  03JUN15 AUTH: 695N3Y5LSVR3Y  
+VABOU/MEGAN                                         YEG   YVR 15JUN
+EXCHANGE AUTHORIZATION                    60716375    HHX6MC/CH25
+EVA AIRWAYS CORPORATION         C94-95  5880/  FCI1 YVR O TPE 16JUN
+                        ***EXCHANGED TICKETS***       HHX6MC/CH25
+                        1 695 89168872944 21 35 42  TPE O PNH 17JUN
+                        1 695 89168872955 22          HHX6MC/CH25
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            PNH O TPE 17JUL
+FPAXXXXXXXXXXXX1005EXP0716C182469 FCM/IT END  XT 30   HHW6MC/CH25
+.00SQ 15.80KX 222.00YQ                              TPE O YVR 17JUL
+                                                      HHW6MC/CH25
+                                                    YVR O YEG 17JUL
+                                                      HHW6MC/CH25
+IT
+    25.91CA
+     1.50XG                AUTH: 695N3Y5LSVR3Y
+   267.80XT
+
+.
+JOLLYTIME TRAVEL                 EDMONTON  12JUN15 AUTH:131556AA73940E  
+CHAN/MABEL                                          YVR   NRT 09JUL
+EXCHANGE AUTHORIZATION                    60716375    D1X0/4B5
+JAPAN AIRLINES INTL             C26-27  5880/  FCI1 NRT
+                        ***EXCHANGED TICKETS***
+                        1 131 89170981263    34 41  KIX O HKG 17JUL
+                        1 131 89170981274             D1X0/4B5
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            HKG O NRT 30JUL
+FPVIXXXXXXXXXXXX5360EXP0816C012527 FCM/IT END XT 11   D1X0/4B5
+8.20YQ 38.20SW 20.00SQ 19.10HK 8.40OI 7.20YR        NRT O YVR 30JUL
+                                                      D1X0/4B5
+
+
+IT
+    25.91CA
+     1.00XG                AUTH:131556AA73940E
+   211.10XT
+
+.
+JOLLYTIME TRAVEL                 EDMONTON  12JUN15 AUTH:131556AA73956E  
+CHAN/DAVE                                           YVR   NRT 09JUL
+EXCHANGE AUTHORIZATION                    60716375    D1X0/4B5
+JAPAN AIRLINES INTL             C28-29  5880/  FCI1 NRT
+                        ***EXCHANGED TICKETS***
+                        1 131 89170981285    36 43  KIX O HKG 17JUL
+                        1 131 89170981296             D1X0/4B5
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            HKG O NRT 30JUL
+FPVIXXXXXXXXXXXX5360EXP0816C012527 FCM/IT END XT 11   D1X0/4B5
+8.20YQ 38.20SW 20.00SQ 19.10HK 8.40OI 7.20YR        NRT O YVR 30JUL
+                                                      D1X0/4B5
+
+
+IT
+    25.91CA
+     1.00XG                AUTH:131556AA73956E
+   211.10XT
+
+.
+JOLLYTIME TRAVEL                 EDMONTON  12JUN15 AUTH:131556AA73979E  
+LIN/LUCAS                                           YVR   NRT 09JUL
+EXCHANGE AUTHORIZATION                    60716375    D1X04B5/CH25
+JAPAN AIRLINES INTL             C30-31  5880/  FCI1 NRT
+                        ***EXCHANGED TICKETS***
+                        1 131 89170981300    31 45  KIX O HKG 17JUL
+                        1 131 89170981311             D1X04B5/CH25
+REVIEW ETKT FOR ENDORSE/RESTRICT/PENALTY            HKG O NRT 30JUL
+FPVIXXXXXXXXXXXX5360EXP0816C012550 FCM/IT END XT 11   D1X04B5/CH25
+8.20YQ 20.00SQ 19.10SW 8.40OI 7.20YR                NRT O YVR 30JUL
+                                                      D1X04B5/CH25
+
+
+IT
+    25.91CA
+     1.00XG                AUTH:131556AA73979E
+   172.90XT
+
+.
