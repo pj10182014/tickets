@@ -28,6 +28,7 @@ $env = $app->detectEnvironment(array(
 
 	'home' => array('DingdingPan-PC','ET-Antec'),
 	'local' => array('Peter'),
+	'mac-air' => array('Davies-Air'),
 
 ));
 
