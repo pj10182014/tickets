@@ -28,12 +28,13 @@
     <div class="button-field">
       <input type="submit" class="btn-search"value="Search">
       <button class="btn-update">Update</button>
-      <button class="btn-prev">PREV</button>
-      <button class="btn-next">NEXT</button>
+      <button class="btn-prev" name="previous">PREV</button>
+      <button class="btn-next" name="next">NEXT</button>
     </div>
     <input type="hidden" name="ticketHolder" value="">
   </div>
   <div id="text-field">
+
   </div>
 </div>
 @stop
@@ -44,7 +45,8 @@
   $(document).ready(function() {
     $( "#text-field" ).accordion();
     $('.btn-prev').attr('disabled','disabled');
-    $('.btn-next').attr('disabled','disabled');
+//    $('.btn-next').attr('disabled','disabled');
+
 
     setTimeout(function() {
         $('.update-info').slideUp('slow');
@@ -81,16 +83,18 @@
             if(data.length>1){
               $.each(data,function(index,item){
                 $("#text-field").append("<h3 class='block-hearder'><span>"+item['dateOfFile']+"</span><span>"+item['paxName']+"</span><span>"+item['airlineName']+"</span></h3><div class='text-block'>"+item['content']+"</div>");
+                searchNext(item['orderOfDay'],item['dateOfFile']);
               });
-              
+
               $( "#text-field" ).accordion( "destroy" );
               $( "#text-field" ).accordion({
                 collapsible: true
               });
-              
+
             }else{
               $.each(data,function(index,item){
-                $("#text-field").append("<div class='text-block-single'>"+item['content']+"</div>");
+                $("#text-field").append("<div class='text-block-single'>"+item['content']+"</div>"+"<script>");
+                searchNext(item['orderOfDay'],item['dateOfFile']);
               });
             }
             $("input[name='ticketNumber']").val('');
@@ -99,7 +103,7 @@
           }
         });
       }
-    });
+    });  //end btn-search
 
 
     $(".btn-update").click(function(event) {
@@ -116,7 +120,43 @@
           }, 1000);
         }
       });
-    });
+    });  //end btn-update
+
+
+    /*
+     * searchNext()
+     * Using orderOfDay to find the next ticket
+     * After last orderOfDay is reached and this function is invoked, "Reached MAX record, Total records for the day: " will be printed
+     * */
+    function searchNext(orderOfDay,dateOfFile){
+      var orderOfDay = Number(orderOfDay);  //Converting orderOfDay to Number because it is a string in the database
+      var dateOfFile = dateOfFile;
+
+      // Making sure this function doesn't get called twice
+      if( !this.wasRun ){
+        $(".btn-next").click(function(event) {
+          event.preventDefault();
+          $.ajax({
+            method: "post",
+            url: "/next",
+            dataType: "json",
+            data: {orderOfDay:orderOfDay, dateOfFile: dateOfFile},
+            success: function(data){
+              $("#text-field").empty();
+              $("#text-field").append("<div class='text-block-single'>"+data['content']+"</div>");
+
+              //Run the function again if orderOfDay's value is the same as orderOfDay value passed back
+              if((orderOfDay + 1) == data['orderOfDay']){
+                orderOfDay++;
+                searchNext(orderOfDay);
+              }
+            }
+          });
+        });  //end btn-next
+      }
+      this.wasRun = true;
+    }  //end searchNext()
+
      
   }); //end document ready
 </script>

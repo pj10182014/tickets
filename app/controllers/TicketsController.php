@@ -120,6 +120,8 @@ class TicketsController extends BaseController {
 					$data[$index]['dateOfFile']=$document['dateOfFile'];
 					$data[$index]['paxName']=$document['paxName'];
 					$data[$index]['airlineName']=$document['airlineName'];
+					$data[$index]['orderOfDay']=$document['orderOfDay'];
+					$data[$index]['ticketNumber']=$document['ticketNumber'];
 				//}else{
 					//$data['content'][]="Sorry the document does not exist, or hasn't been update yet, please click update and try again.";					
 				//}
@@ -130,7 +132,41 @@ class TicketsController extends BaseController {
 		}else{
 			$data[$index]['content'] = "Sorry the document does not exist, or hasn't been update yet, please click update and try again."; 	
 		}
-		
+		echo json_encode($data);
+	}
+
+	public function previous(){
+
+	}
+
+
+	/**
+	 * function next()
+	 * Searching the database to find the dateOfFile (2015-06-25) and the orderOfDay
+	 * Check the maximum orderOfDay there are on the same date
+	 * Passes content, orderOfDay and maxOrderNumber to the view (ticket.blade.php)
+     */
+	public function next(){
+		$data = array();
+		$nextOrderOfDay = $_POST['orderOfDay'] + 1;
+		$dateOfFile = $_POST['dateOfFile'];
+
+		$model = Document::where('orderOfDay', '=', $nextOrderOfDay)->where('dateOfFile', '=', $dateOfFile)->get();
+		$model_orderOfDay = Document::where('dateOfFile', '=', $dateOfFile)->get();
+
+		$allOrderNumbers = array();
+		foreach($model_orderOfDay as $key => $value){
+			$allOrderNumbers[] = $value->orderOfDay;
+		}
+		$maxOrderNumber = max($allOrderNumbers);
+
+		if($nextOrderOfDay > $maxOrderNumber){
+			$data['content'] = '<p>Reached MAX record<br>Total records for the day: ' . $maxOrderNumber . '</p>';
+			$data['maxOrderNumber'] = $maxOrderNumber;
+		}else{
+			$data['content'] = $model[0]->fileContent;
+			$data['orderOfDay'] = $model[0]->orderOfDay;
+		}
 		echo json_encode($data);
 	}
 }
